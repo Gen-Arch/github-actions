@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/gcloud@latest
+      - uses: actions/gcloud
 
       - name: Run a one-line script
         run: gcloud --version
